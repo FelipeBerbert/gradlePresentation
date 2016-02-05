@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="br.felipe.gradlepresentation.cola.CocacolaActivity"
+            android:label="@string/title_activity_cocacola"
+            android:parentActivityName="br.felipe.gradlepresentation.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.felipe.gradlepresentation.MainActivity" />
+        </activity>
+    </application>
+</manifest>

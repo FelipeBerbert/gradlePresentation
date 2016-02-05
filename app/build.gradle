@@ -17,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        cocacola {
+            applicationId "br.felipe.gradlepresentation.cola"
+        }
+        pepsi {
+            applicationId "br.felipe.gradlepresentation.pepsi"
+        }
+    }
 }
 
 dependencies {
